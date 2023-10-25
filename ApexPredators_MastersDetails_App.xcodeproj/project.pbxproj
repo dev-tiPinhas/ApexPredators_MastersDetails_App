@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82140D82AE7E2D700576DA3 /* ApexPredators_MastersDetails_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82140D72AE7E2D700576DA3 /* ApexPredators_MastersDetails_AppApp.swift */; };
+		A82140DA2AE7E2D700576DA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82140D92AE7E2D700576DA3 /* ContentView.swift */; };
+		A82140DC2AE7E2D800576DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82140DB2AE7E2D800576DA3 /* Assets.xcassets */; };
+		A82140DF2AE7E2D800576DA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82140DE2AE7E2D800576DA3 /* Preview Assets.xcassets */; };
+		A82140E82AE7E37500576DA3 /* PredatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82140E62AE7E37500576DA3 /* PredatorController.swift */; };
+		A82140E92AE7E37500576DA3 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82140E72AE7E37500576DA3 /* ApexPredator.swift */; };
+		A82140EB2AE7E38300576DA3 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = A82140EA2AE7E38300576DA3 /* jpapexpredators.json */; };
+		A82140EE2AE7E65300576DA3 /* PredatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82140ED2AE7E65300576DA3 /* PredatorRow.swift */; };
+		A82140F12AE7EAF400576DA3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82140F02AE7EAF400576DA3 /* String+Extensions.swift */; };
+		A82140F32AE7F7FA00576DA3 /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82140F22AE7F7FA00576DA3 /* PredatorDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A82140D42AE7E2D700576DA3 /* ApexPredators_MastersDetails_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApexPredators_MastersDetails_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82140D72AE7E2D700576DA3 /* ApexPredators_MastersDetails_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredators_MastersDetails_AppApp.swift; sourceTree = "<group>"; };
+		A82140D92AE7E2D700576DA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A82140DB2AE7E2D800576DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A82140DE2AE7E2D800576DA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A82140E62AE7E37500576DA3 /* PredatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredatorController.swift; sourceTree = "<group>"; };
+		A82140E72AE7E37500576DA3 /* ApexPredator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
+		A82140EA2AE7E38300576DA3 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		A82140ED2AE7E65300576DA3 /* PredatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorRow.swift; sourceTree = "<group>"; };
+		A82140F02AE7EAF400576DA3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		A82140F22AE7F7FA00576DA3 /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82140D12AE7E2D700576DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82140CB2AE7E2D700576DA3 = {
+			isa = PBXGroup;
+			children = (
+				A82140D62AE7E2D700576DA3 /* ApexPredators_MastersDetails_App */,
+				A82140D52AE7E2D700576DA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82140D52AE7E2D700576DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82140D42AE7E2D700576DA3 /* ApexPredators_MastersDetails_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82140D62AE7E2D700576DA3 /* ApexPredators_MastersDetails_App */ = {
+			isa = PBXGroup;
+			children = (
+				A82140D72AE7E2D700576DA3 /* ApexPredators_MastersDetails_AppApp.swift */,
+				A82140E52AE7E36A00576DA3 /* Model */,
+				A82140D92AE7E2D700576DA3 /* ContentView.swift */,
+				A82140EC2AE7E63600576DA3 /* CustomViews */,
+				A82140EA2AE7E38300576DA3 /* jpapexpredators.json */,
+				A82140EF2AE7EA9E00576DA3 /* Extensions */,
+				A82140DB2AE7E2D800576DA3 /* Assets.xcassets */,
+				A82140DD2AE7E2D800576DA3 /* Preview Content */,
+			);
+			path = ApexPredators_MastersDetails_App;
+			sourceTree = "<group>";
+		};
+		A82140DD2AE7E2D800576DA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A82140DE2AE7E2D800576DA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A82140E52AE7E36A00576DA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A82140E72AE7E37500576DA3 /* ApexPredator.swift */,
+				A82140E62AE7E37500576DA3 /* PredatorController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A82140EC2AE7E63600576DA3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A82140ED2AE7E65300576DA3 /* PredatorRow.swift */,
+				A82140F22AE7F7FA00576DA3 /* PredatorDetail.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A82140EF2AE7EA9E00576DA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A82140F02AE7EAF400576DA3 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82140D32AE7E2D700576DA3 /* ApexPredators_MastersDetails_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82140E22AE7E2D800576DA3 /* Build configuration list for PBXNativeTarget "ApexPredators_MastersDetails_App" */;
+			buildPhases = (
+				A82140D02AE7E2D700576DA3 /* Sources */,
+				A82140D12AE7E2D700576DA3 /* Frameworks */,
+				A82140D22AE7E2D700576DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApexPredators_MastersDetails_App;
+			productName = ApexPredators_MastersDetails_App;
+			productReference = A82140D42AE7E2D700576DA3 /* ApexPredators_MastersDetails_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82140CC2AE7E2D700576DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A82140D32AE7E2D700576DA3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A82140CF2AE7E2D700576DA3 /* Build configuration list for PBXProject "ApexPredators_MastersDetails_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82140CB2AE7E2D700576DA3;
+			productRefGroup = A82140D52AE7E2D700576DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82140D32AE7E2D700576DA3 /* ApexPredators_MastersDetails_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82140D22AE7E2D700576DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82140DF2AE7E2D800576DA3 /* Preview Assets.xcassets in Resources */,
+				A82140DC2AE7E2D800576DA3 /* Assets.xcassets in Resources */,
+				A82140EB2AE7E38300576DA3 /* jpapexpredators.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82140D02AE7E2D700576DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82140F32AE7F7FA00576DA3 /* PredatorDetail.swift in Sources */,
+				A82140E92AE7E37500576DA3 /* ApexPredator.swift in Sources */,
+				A82140E82AE7E37500576DA3 /* PredatorController.swift in Sources */,
+				A82140DA2AE7E2D700576DA3 /* ContentView.swift in Sources */,
+				A82140D82AE7E2D700576DA3 /* ApexPredators_MastersDetails_AppApp.swift in Sources */,
+				A82140F12AE7EAF400576DA3 /* String+Extensions.swift in Sources */,
+				A82140EE2AE7E65300576DA3 /* PredatorRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A82140E02AE7E2D800576DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A82140E12AE7E2D800576DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82140E32AE7E2D800576DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApexPredators_MastersDetails_App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ANUQU8KMP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TP Predators";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiagopinheiro.ApexPredators-MastersDetails-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A82140E42AE7E2D800576DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApexPredators_MastersDetails_App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ANUQU8KMP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TP Predators";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiagopinheiro.ApexPredators-MastersDetails-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82140CF2AE7E2D700576DA3 /* Build configuration list for PBXProject "ApexPredators_MastersDetails_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82140E02AE7E2D800576DA3 /* Debug */,
+				A82140E12AE7E2D800576DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82140E22AE7E2D800576DA3 /* Build configuration list for PBXNativeTarget "ApexPredators_MastersDetails_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82140E32AE7E2D800576DA3 /* Debug */,
+				A82140E42AE7E2D800576DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82140CC2AE7E2D700576DA3 /* Project object */;
+}
