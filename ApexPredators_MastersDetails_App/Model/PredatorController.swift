@@ -11,6 +11,14 @@ class PredatorController {
     var allApexPredators: [ApexPredator] = []
     var apexPredators: [ApexPredator] = []
     let typeFilters = ["All", "Land", "Air", "Sea"]
+    let typeFilterByMovies = [
+        "None",
+        "Jurassic Park",
+        "The Lost World: Jurassic Park",
+        "Jurassic Park III",
+        "Jurassic World",
+        "Jurassic World: Fallen Kingdom"
+    ]
     
     init() {
         descodeApexPredatorData()
@@ -51,6 +59,21 @@ class PredatorController {
              "Sea":
             apexPredators = allApexPredators.filter {
                 $0.type == type.lowercased()
+            }
+        default:
+            apexPredators = allApexPredators
+        }
+    }
+    
+    func filterBy(movie: String) {
+        switch movie {
+        case "Jurassic Park",
+             "The Lost World: Jurassic Park",
+             "Jurassic Park III",
+             "Jurassic World",
+             "Jurassic World: Fallen Kingdom":
+            apexPredators = allApexPredators.filter {
+                $0.movies.contains(movie)
             }
         default:
             apexPredators = allApexPredators
