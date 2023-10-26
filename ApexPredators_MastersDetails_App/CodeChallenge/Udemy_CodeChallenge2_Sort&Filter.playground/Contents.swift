@@ -20,8 +20,35 @@ import UIKit
 //
 // Sorted array (final result): ["Toothless", "tiger", "skunk", "raccoon", "lion", "Big Bird", "bear", "baboon"]
 
-func sortAndFilter(_ stringArray: [String]) -> [String] {
-    //let temp = stringArray.filter { $0. }
+func validateStringFirstElement(string: String) -> [String] {
+    var tempList: [String] = []
     
-    return []
+    if let firstChar = string.first,
+       firstChar.lowercased() != "a",
+       firstChar.lowercased() != "e",
+       firstChar.lowercased() != "i",
+       firstChar.lowercased() != "o",
+       firstChar.lowercased() != "u" {
+        tempList.append(string)
+    }
+    
+    return tempList
 }
+
+func sortAndFilter(_ stringArray: [String]) -> [String] {
+    var list: [String] = []
+    stringArray.forEach { string in
+        list.append(contentsOf: validateStringFirstElement(string: string))
+    }
+    
+    let sortedList = list.sorted { (lhs: String, rhs: String) -> Bool in
+        return lhs.caseInsensitiveCompare(rhs) == .orderedDescending
+    }
+    
+    return sortedList //list.sorted(by: { $0 > $1 } ) // does not work because of case insensitiveCompare
+}
+
+
+sortAndFilter(["Alan", "Timothy", "Kevin", "Ethan", "Matthew"])
+
+sortAndFilter(["lion", "tiger", "bear", "eagle", "Big Bird", "raccoon", "skunk", "Toothless", "aardvark", "baboon", "Old Yeller"])
